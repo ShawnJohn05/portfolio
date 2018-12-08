@@ -3,7 +3,8 @@ html, body, main, section {
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Jura', sans-serif;
+
   overflow-x: hidden;
 }
 
@@ -26,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   z-index: 2;
   font-size: 18px;
-  background-image: linear-gradient(260deg, #2A85BC 0%, #044059 100%);
+  background-image: linear-gradient(260deg, #FF701E 0%,#472B04  100%);
 }
 
 #main-nav {
@@ -102,17 +103,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sectionTitle {
+    
   text-align: center;
   align-self: center;
-  font-size: 2em;
+  font-size: 3.5em;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
 }
 
+#workHeader .sectionTitle{
+      background-color: rgba(0,0,0,0.5);
+
+}
+
 /*SECTION HEADERS*/
 #workHeader {
-  background-image: url("../img/code.jpg");
+  background-image: url("");
 }
 
 #contactHeader {
@@ -128,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 50vh;
   width: 100%;
   height: 100vh;
-  background-image: url("../img/hero.jpg");
+  background-image: url("https://i2.wp.com/get.wallpapers8k.com/wallpapers/f/b/b/204573.jpg?w=760");
   background-size: cover;
 }
 
@@ -145,11 +152,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .name {
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 4em;
   text-align: center;
-  background-color: grey;
+  background-color: #FF521B;
   color: white;
   padding: 0 2vw;
+  width :100%;
+  letter-spacing: 30px;
 }
 
 /*ABOUT SECTION*/
@@ -170,7 +179,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headshot {
-  width: 100%;
+  width: 435px;
+    height:528px;
   margin: 0 auto;
 }
 
@@ -183,7 +193,10 @@ h1, h2, h3, h4, h5, h6 {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 10vh;
+  border-radius: 50px;
+  padding-top: 1em;
   width: 100%;
+  border:4px solid black;
 }
 .aboutGrid .aboutCol {
   width: 32%;
